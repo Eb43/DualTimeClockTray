@@ -112,7 +112,7 @@ If these functions aren't available (Windows 7), the app falls back to legacy AP
 
 ## Usage
 
-1. Download and run `DualTimeClockTray.exe`
+1. Download and run [DualTimeClockTray.exe](https://github.com/Eb43/DualTimeClockTray/blob/main/DualTimeClockTray.exe)
 2. Right-click any tray icon to access the context menu
 3. Select your desired timezone from "Select Timezone"
 4. Choose icon display method from "Icon Fix Method"
