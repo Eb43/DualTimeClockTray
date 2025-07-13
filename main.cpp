@@ -150,13 +150,23 @@ void LoadTimezones() {
             timezones.push_back(tz);
         }
     } else {
-        // Fallback: hardcoded UTC timezone only
-        DYNAMIC_TIME_ZONE_INFORMATION utc = {};
-        wcscpy(utc.TimeZoneKeyName, L"UTC");
-        wcscpy(utc.StandardName, L"UTC");
-        utc.Bias = 0;
-        utc.StandardBias = 0;
-        timezones.push_back(utc);
+        // Manual UTC±XX:00 and ±XX:30 fallback for Windows 7
+        for (int bias = -720; bias <= 840; bias += 30) { // -12:00 to +14:00, step 30 min
+            int hours = bias / 60;
+            int mins = abs(bias % 60);
+
+            DYNAMIC_TIME_ZONE_INFORMATION tz = {};
+            tz.Bias = -bias; // Bias is opposite of UTC offset
+
+            wchar_t sign = (bias >= 0) ? L'+' : L'-';
+            int absH = abs(hours);
+
+            // Format: UTC+05:30
+            swprintf(tz.TimeZoneKeyName, 32, L"UTC%c%02d:%02d", sign, absH, mins);
+            swprintf(tz.StandardName, 32, L"UTC%c%02d:%02d", sign, absH, mins);
+
+            timezones.push_back(tz);
+        }
     }
 
     std::sort(timezones.begin(), timezones.end(), [](const auto& a, const auto& b) {
