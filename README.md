@@ -2,8 +2,9 @@
 
 A lightweight Windows system tray application that displays a second clock in any timezone, designed for Windows 7, 8, 10, and 11.
 <div style="">
-  <img alt="visualización del voltaje de la batería en Android" src="https://raw.githubusercontent.com/Eb43/bateryvoltagedisplay/main/notification-shade.jpg" style="width:300px; display: inline-block; margin-left:30px;"/>
-  <img alt="visualización del voltaje de la batería en Android" src="https://raw.githubusercontent.com/Eb43/bateryvoltagedisplay/main/lockscreen.jpg" style="width:300px; display: inline-block; margin-left:30px;"/>
+  <img alt="world dual clock in windows system tray" src="https://raw.githubusercontent.com/Eb43/DualTimeClockTray/refs/heads/main/images/Clipboard01.jpg" style="width:300px; display: inline-block; margin-left:30px;"/>
+  <img alt="world dual clock in windows system tray" src="https://raw.githubusercontent.com/Eb43/DualTimeClockTray/refs/heads/main/images/Clipboard02.jpg" style="width:300px; display: inline-block; margin-left:30px;"/>
+  <img alt="world dual clock in windows system tray" src="https://raw.githubusercontent.com/Eb43/DualTimeClockTray/refs/heads/main/images/Clipboard03.jpg" style="width:300px; display: inline-block; margin-left:30px;"/>
   </div>
   
 
