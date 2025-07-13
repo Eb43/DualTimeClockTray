@@ -6,7 +6,13 @@ A lightweight Windows system tray application that displays a second clock in an
   <img alt="world dual clock in windows system tray" src="https://raw.githubusercontent.com/Eb43/DualTimeClockTray/refs/heads/main/images/Clipboard02.jpg" style="width:300px; display: inline-block; margin-left:30px;"/>
   <img alt="world dual clock in windows system tray" src="https://raw.githubusercontent.com/Eb43/DualTimeClockTray/refs/heads/main/images/Clipboard03.jpg" style="width:300px; display: inline-block; margin-left:30px;"/>
   </div>
-  
+
+  <div style="">
+  <img alt="world dual clock in windows system tray" src="https://raw.githubusercontent.com/Eb43/DualTimeClockTray/refs/heads/main/images/win7.gif" style="width:300px; display: inline-block; margin-left:30px;"/>
+  <img alt="world dual clock in windows system tray" src="https://raw.githubusercontent.com/Eb43/DualTimeClockTray/refs/heads/main/images/win10.gif" style="width:300px; display: inline-block; margin-left:30px;"/>
+    <img alt="world dual clock in windows system tray" src="https://raw.githubusercontent.com/Eb43/DualTimeClockTray/refs/heads/main/images/VirtualBox_win11_13_07_2025_20_21_55.png" style="width:300px; display: inline-block; margin-left:30px;"/>
+      </div>
+
 
 ## How Windows Dual Clock Works by Default
 
