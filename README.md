@@ -1,6 +1,11 @@
 # DualTimeClockTray
 
 A lightweight Windows system tray application that displays a second clock in any timezone, designed for Windows 7, 8, 10, and 11.
+<div style="">
+  <img alt="visualización del voltaje de la batería en Android" src="https://raw.githubusercontent.com/Eb43/bateryvoltagedisplay/main/notification-shade.jpg" style="width:300px; display: inline-block; margin-left:30px;"/>
+  <img alt="visualización del voltaje de la batería en Android" src="https://raw.githubusercontent.com/Eb43/bateryvoltagedisplay/main/lockscreen.jpg" style="width:300px; display: inline-block; margin-left:30px;"/>
+  </div>
+  
 
 ## How Windows Dual Clock Works by Default
 
